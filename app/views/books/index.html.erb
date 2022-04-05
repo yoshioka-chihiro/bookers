@@ -11,11 +11,11 @@
   </thead>
    <% @books.each do |book| %>
    <tbody>
-     <tr>
-       <td><%= book.title %></td>
-       <td><%= book.body %></td>
-       <td>
-         <%= link_to "Show", "/books/show" %>
+     <tr class="table">
+       <td class="title"><%= book.title %></td>
+       <td class="body"><%= book.body %></td>
+       <td class="link">
+         <%= link_to "Show", "/books/#{book.id}" %>
          <%= link_to "Edit", "/books/edit" %>
          <%= link_to "Destroy", "/" %>
        </td>
