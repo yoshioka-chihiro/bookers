@@ -50,19 +50,42 @@ h2 {
 
  }
 
- .table {
-   background-color: yellow;
- }
-
-
-.title td {
-  width:200px;
+table {
+  width: 750px;
+  border-spacing: 8px;
+  line-height: 25px;
 }
 
-.body td {
-  width: 400px;
+.title {
+  width: 25%;
 }
 
-.link td {
-  width: 145px;
+.body {
+  /*background-color: green;*/
+  width: 50%;
+}
+
+.link {
+  width: 25%;
+  text-align: center;
+}
+
+#notice {
+  color: green;
+}
+
+
+dt {
+  margin-top: 10px;
+}
+
+
+.btn {
+    box-sizing: border-box;
+    height: 20px;
+    background-color: rgb(239,239,239);
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 100px;
+    margin: 10px 0;
 }
